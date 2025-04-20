@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NoteGenie App - Case Study</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>NoteGenie - Case Study</h1>
+    <p>A mobile app that turns educational videos into instant notes and summaries using AI.</p>
+  </header>
+  <div class="divider"></div>
+
+  <section class="section card">
+    <h2>Project Overview</h2>
+    <p>NoteGenie is a productivity app designed to help students and learners generate notes and summaries from any video content in seconds. With an intuitive and clean UI, the app makes it easy to process video content and extract meaningful study materials on the go.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Problem Statement</h2>
+    <p>Students often struggle to take notes while watching educational videos. Switching between apps, missing key points, or forgetting to summarize after watching makes the learning process inefficient.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Objective</h2>
+    <p>Build an AI-powered mobile UI that allows users to search for videos, convert them into notes or summaries instantly, and organize the content efficiently for future reference.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Target Users</h2>
+    <ul>
+      <li>Students and online learners.</li>
+      <li>Professionals attending webinars and lectures.</li>
+      <li>Content reviewers and educators.</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Design Process</h2>
+    <ul>
+      <li><strong>Research:</strong> Reviewed productivity and note-taking apps, identified user pain points.</li>
+      <li><strong>Wireframes:</strong> Simple, card-based UI for summaries, video input, and notes.</li>
+      <li><strong>UI Design:</strong> Purple gradient theme with rounded buttons and soft UI elements.</li>
+      <li><strong>Prototype:</strong> Full walkthrough of login, home, search, summary generation, saved data, and user profile screens.</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Challenges</h2>
+    <p>Creating a smooth, minimal UX that balances both simplicity and functionality while representing AI features clearly.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Key Learnings</h2>
+    <p>I learned how effective visual hierarchy, minimal navigation, and proper data grouping can drastically enhance usability—especially in AI-powered tools where instant results are expected.</p>
+  </section>
+
+<section class="section card">
+  <h2>View Prototype</h2>
+  <p>The prototype demonstrates the entire app flow—from login to summary creation and note management.</p>
+  <a class="button" href="https://www.figma.com/proto/I6IWmiP55CU4vomQou9EYA/Ray-Bright?page-id=58%3A67&node-id=62-165&viewport=-30%2C217%2C0.26&t=o018wTauhXfQfnIQ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=60%3A4" target="_blank">
+    Open Figma Prototype
+  </a>
+</section>
+
+
+  <footer>
+    <p><a class="button" href="index.html">Back to Home</a></p>
+  </footer>
+
+  <button id="topBtn" aria-label="Scroll to top">↑</button>
+  <script>
+    const topBtn = document.getElementById('topBtn');
+    window.onscroll = () => { topBtn.style.display = (window.scrollY > 200) ? 'block' : 'none'; };
+    topBtn.onclick = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  </script>
+</body>
+</html>

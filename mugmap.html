@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MugMap App - Case Study</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>MugMap - Case Study</h1>
+    <p>An imaginary mobile app project for discovering cafés based on vibe and preferences.</p>
+  </header>
+  <div class="divider"></div>
+
+  <section class="section card">
+    <h2>Project Overview</h2>
+    <p>MugMap is a concept mobile app designed for coffee lovers to explore nearby cafés based on their preferred atmosphere—cozy, quiet, trendy, or social. The app was created to make it easier for people to find their ideal hangout spots quickly and visually.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Problem Statement</h2>
+    <p>Users often find it hard to locate cafés that match their mood or vibe. While most maps show location and ratings, they lack deeper context about ambiance, crowd level, or ideal usage (work, meetups, solo time).</p>
+  </section>
+
+  <section class="section card">
+    <h2>Objective</h2>
+    <p>The goal was to design a clean, visually engaging app that helps users search for cafés using mood-based filters and a map-driven interface. It allows quick discovery, easy access to ratings, photos, and contact details.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Target Users</h2>
+    <ul>
+      <li>Students and remote workers looking for peaceful coffee shops</li>
+      <li>Friends meeting up and wanting trendy spots</li>
+      <li>Casual travelers exploring new cities</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Design Process</h2>
+    <ul>
+      <li><strong>Concept Only:</strong> This is a fictional case study created to practice mobile UI/UX design skills.</li>
+      <li><strong>Wireframes:</strong> Initial wireframes focused on location, café detail, and filtering experience.</li>
+      <li><strong>UI Design:</strong> Warm, coffee-inspired colors with modern icons and smooth card layouts.</li>
+      <li><strong>Prototype:</strong> Interactive Figma prototype with flow from splash to café discovery and detail view.</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Search cafés by vibe (cozy, quiet, trendy, etc.)</li>
+      <li>Map view and list view for easy navigation</li>
+      <li>Café details with rating, open hours, description, and contact</li>
+      <li>Favorites and save-for-later feature</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>View Prototype</h2>
+    <p>You can explore the full MugMap mobile app prototype on Figma:</p>
+    <a class="button" href="https://www.figma.com/proto/I6IWmiP55CU4vomQou9EYA/Ray-Bright?page-id=98%3A44&node-id=101-51&p=f&viewport=-4%2C280%2C0.25&t=culOuWGEHagtDw6B-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=100%3A45" target="_blank">
+      View Figma Prototype
+    </a>
+  </section>
+
+  <footer>
+    <p><a class="button" href="index.html">Back to Home</a></p>
+  </footer>
+
+  <button id="topBtn" aria-label="Scroll to top">↑</button>
+  <script>
+    const topBtn = document.getElementById('topBtn');
+    window.onscroll = () => { topBtn.style.display = (window.scrollY > 200) ? 'block' : 'none'; };
+    topBtn.onclick = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  </script>
+</body>
+</html>
