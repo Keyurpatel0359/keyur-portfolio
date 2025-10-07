@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alzero App - Case Study</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Alzero - Case Study</h1>
+    <p>A concept food delivery app inspired by Zomato, designed for ordering meals with a modern, user-friendly experience.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <section class="section card">
+    <h2>Project Overview</h2>
+    <p>Alzero is a food delivery app concept that allows users to browse restaurants, discover new cuisines, and place online orders easily. The focus was to create a seamless, engaging UI that makes food discovery simple, fast, and visually delightful.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Problem Statement</h2>
+    <p>While many food apps exist, users often struggle with cluttered interfaces, slow navigation, and overwhelming options. There’s a need for a clean design that highlights food discovery, quick re-ordering, and smooth checkout.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Objective</h2>
+    <p>The goal was to design a modern mobile app with a minimal yet colorful interface. Alzero focuses on ease of use, personalized food recommendations, and a fast ordering process.</p>
+  </section>
+
+  <section class="section card">
+    <h2>Target Users</h2>
+    <ul>
+      <li>Busy professionals ordering quick meals</li>
+      <li>Students looking for affordable and fast food options</li>
+      <li>Families ordering group meals and combos</li>
+      <li>Food lovers discovering new restaurants</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Design Process</h2>
+    <ul>
+      <li><strong>Concept:</strong> A fictional case study for UI/UX practice.</li>
+      <li><strong>Wireframes:</strong> Focused on home feed, restaurant details, and checkout experience.</li>
+      <li><strong>UI Design:</strong> Bright, appetizing color palette with rounded cards and bold food imagery.</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Browse restaurants & cuisines with filters</li>
+      <li>Search food items quickly</li>
+      <li>Restaurant details with reviews, menu, and ratings</li>
+      <li>Cart & checkout flow</li>
+      <li>Live order tracking</li>
+      <li>Favorites and re-ordering option</li>
+    </ul>
+  </section>
+
+  <section class="section card">
+    <div style="text-align:center;">
+      <h3>Start Screen</h3><img src="alzero_1.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Login</h3><img src="alzero_2.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Sign-up</h3><img src="alzero_3.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Dashbord</h3><img src="alzero_4.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>All Restaurant</h3><img src="alzero_5.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>All Menu</h3><img src="alzero_6.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Food Item</h3><img src="alzero_7.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Redirect to Cart</h3><img src="alzero_8.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Cart</h3><img src="alzero_9.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Confiom order</h3><img src="alzero_10.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Payment Mode</h3><img src="alzero_11.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+      <h3>Complete Order</h3><img src="alzero_12.png" alt="Alzero App Visual" style="max-width: 300px; width: 100%; height: auto; margin-bottom: 10px;" />
+    </div>
+  </section>
+
+  <footer>
+    <p><a class="button" href="index.html">Back to Home</a></p>
+  </footer>
+
+  <button id="topBtn" aria-label="Scroll to top">↑</button>
+  <script>
+    const topBtn = document.getElementById('topBtn');
+    window.onscroll = () => { topBtn.style.display = (window.scrollY > 200) ? 'block' : 'none'; };
+    topBtn.onclick = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  </script>
+</body>
+</html>

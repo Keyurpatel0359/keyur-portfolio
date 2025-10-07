@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keyur Dudhatra - UI/UX Designer Portfolio</title>
+  <meta name="description" content="Portfolio of Keyur Dudhatra - Junior UI/UX Designer specializing in wireframing, prototyping, user research, and mobile/web UI design.">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Keyur Dudhatra</h1>
+    <p>Junior UI/UX Designer crafting intuitive and purpose-driven digital products.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- About Section -->
+  <section class="section card">
+    <h2>About Me</h2>
+    <p>I am a passionate UI/UX Designer with a BCA background, focused on creating experiences that connect business goals with user needs. My approach combines simplicity, clarity, and empathy to design impactful products.</p>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="section card">
+    <h2>Design Philosophy</h2>
+    <p>I believe design starts with understanding people. By uncovering user pain points, conducting research, and iterating solutions, I create products that are both functional and delightful.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section card">
+    <h2>Services</h2>
+    <ul style="line-height: 1.8; margin-bottom: 15px;">
+      <li>Wireframing & Prototyping (Figma)</li>
+      <li>User Research & Usability Testing</li>
+      <li>Personas & Journey Mapping</li>
+      <li>UI Design for Web & Mobile Apps</li>
+      <li>Case Study Documentation</li>
+    </ul>
+  </section>
+
+  <!-- Case Studies Section -->
+  <section class="section card">
+    <h2>Case Studies</h2>
+    <ul>
+      <li><a class="button" href="raybright.html">RayBright - Solar Panel Cleaning App</a></li>
+      <li><a class="button" href="NoteGenie.html">NoteGenie - AI Note-Taking App</a></li>
+      <li><a class="button" href="mugmap.html">MugMap - Café Finder App</a></li>
+      <li><a class="button" href="alzero.html">Alzero - Food Delivery App</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <section class="section card">
+      <h2>Let’s Work Together!</h2>
+      <p>I’m excited to bring your ideas to life and design user experiences that matter. Whether you need UX research, wireframes, or a polished UI, I’d love to collaborate.</p>
+    </section><br>
+    <a class="button" href="https://mail.google.com/mail/?view=cm&to=keyur9744@gmail.com" target="_blank">Get in Touch</a><br><br>
+    <p>Thank you for visiting my portfolio – let’s create something amazing together!</p>
+    <p>Email: <a href="mailto:keyur9744@gmail.com">keyur9744@gmail.com</a> | 
+       <a href="https://www.linkedin.com/in/keyur-dudhatra-86a14b247/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button id="topBtn" aria-label="Scroll to top">↑</button>
+  <script>
+    const topBtn = document.getElementById('topBtn');
+    window.onscroll = () => { topBtn.style.display = (window.scrollY > 200) ? 'block' : 'none'; };
+    topBtn.onclick = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  </script>
+</body>
+</html>
